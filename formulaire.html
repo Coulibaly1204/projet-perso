@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="shortcut icon" href="logo.png">
+    
+</head>
+<body style="background-color: bisque">
+    <section>
+        <div>
+            <img src="je.png" alt="Image-HTML" height="100" width="20%">
+        </div>
+    </section>
+   <section>
+        <div><br>
+            <br>
+            <form action="/action.php" method="post" style="color: black"><b>
+                <label for="name">Nom <br>
+                <input type="text" id="name" name="nom" placeholder="Entrez votre nom";></label><br>
+                <label for="Prenom"> Prenom <br>  <input type="text" id="Prenom" name="Prenom" placeholder="Entrez votre Prenom"></label><br>
+               <label for="email"> Email <br> <input type="email" id="email" name="email" placeholder="Entrez votre email"></label><br>
+               <label for="Age"> Age <br><input type="number" id="Age"  placeholder="Age" max="99" min="0"></label>
+            </form>
+        </div>
+    </section>
+    <section>
+        <label for="Géneral" style="color: black;">Situation <br></label>
+        <select id="Géneral">
+            <option value="Single">Célibataire</option>
+            <option value="Maried">Marié(e)</option>
+            <option value="Concubinage">Concubinage</option>
+            <option value="Divorcer">Divorcé(e)</option>
+            <option value="Séparer">Séparé(e)</option>
+        </select><br>
+    </section>
+    <section>
+        <div><br>
+             Genre :
+            <input type="radio" id="Masculin" name="type">
+            <label for="Homme">Masculin</label>
+
+            <input type="radio" name="type" id="Féminin">
+            <label for="Féminin">Féminin</label>
+        </div><br>
+         <textarea  id="" cols="70" rows="4" placeholder="Un commentaire"></textarea><br><br>
+         <a href="https://www.google.com/" target="_blank">Conditions Géneral <br></a><br>
+         <label><input type="checkbox" />Accepter les conditions générales</label><br><br>
+         <input type="submit" value="Valider votre inscription">
+    </section><br><br>
+    <section>
+        <div>
+            <table border="2" width="50%" style="text-align: center;">
+                <caption><em>Liste de classe</em></caption>
+                <thead>
+                    <tr>
+                        <th>NOM</th>
+                        <th>PRENOM</th>
+                        <th>LIEU DE RESIDENCE</th>
+                        <th>NATIONNALITE</th>
+                    </tr>
+                    <tr>
+                        <td>Kone</td>
+                        <td>Moussa</td>
+                        <td>Yopougon</td>
+                        <td>Ivoirienne</td>
+                    </tr>
+                    <tr>
+                        <td>Kouassi</td>
+                        <td>Jean-Yves</td>
+                        <td>Bingerville</td>
+                        <td>Ivoirienne</td>
+
+                    </tr>
+                    <tr>
+                        <td>Diomande</td>
+                        <td>Salimata</td>
+                        <td>Angré-chateau</td>
+                        <td>Ivoirienne</td>
+                    </tr>
+                    <tr>
+                        <td>N'diaye</td>
+                        <td>Malick Roger</td>
+                        <td>Dakar</td>
+                        <td>Sénégalaise</td>
+                    </tr>
+                </thead>
+                
+                
+            </table>
+        </div>
+    </section><br>
+    <section>
+        <div style="text-align: initial;">
+            <video src="animation.mp4.mp4" autoplay loop muted width="59%"></video>
+        </div>
+    </section>
+    <section>
+        <div>
+            <audio src="chant.mp3.mp3" controls></audio>
+        </div>
+    </section>
+    
+   
+    
+</body>
+</html>
